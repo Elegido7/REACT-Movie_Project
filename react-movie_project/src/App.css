@@ -1,0 +1,134 @@
+.App {
+  padding: 10px 8%;
+  text-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+@media screen and (max-width: 400px) {
+  .App {
+    margin-top: -30%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .App div {
+    width: 100%;
+    text-wrap: wrap;
+    text-align: center;
+    margin-right: 10%;
+  }
+  .addFilter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #filter,
+  #add {
+    text-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .App {
+    margin-top: -15%;
+    flex-direction: column;
+  }
+  .App div {
+    width: 100%;
+    text-wrap: wrap;
+    text-align: center;
+    margin-right: 10%;
+  }
+  .addFilter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #filter,
+  #add {
+    text-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.App div h1 {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.addFilter {
+  margin-top: 100px;
+  padding: 10px;
+  align-items: center;
+}
+
+#add h2 {
+  margin-top: 10%;
+  color: rgb(2, 190, 2);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.addFilter input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(214, 160, 59);
+}
+
+.addFilter button {
+  width: 200px;
+  margin: 20px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(214, 160, 59);
+  background-color: rgb(7, 141, 98);
+  color: white;
+}
+
+#filter {
+  color: rgb(195, 69, 11);
+  padding: 10px;
+  align-items: center;
+}
+.card {
+  padding: 15px;
+  border: 2px solid rgb(214, 160, 59);
+  width: 500px;
+  text-wrap: wrap;
+  border-radius: 10px;
+  gap: 5px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.card h3 {
+  color: rgb(2, 190, 2);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+#rating {
+  color: rgb(255, 81, 0);
+  margin-left: 15px;
+  font-weight: bolder;
+}
+
+label {
+  font-size: 23px;
+  color: rgb(4, 153, 4);
+}
